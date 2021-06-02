@@ -1,0 +1,102 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+.header_menu{}
+
+.header_menu ul{
+    list-style-type: none;
+    text-align: right;
+}
+.header_menu ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+.header_menu ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.header {
+	background: url(./Photo/restaurant_title_bg.jpg);
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+/* We */
+
+
+.we{
+   background: url(./Photo/restaurant_post_bg.jpg); 
+   padding: 60px 0;
+   
+}
+.number{
+    background: url(./Photo/restaurant_blackwood_bg.jpg);
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+.lorem{
+    background: url(./Photo/restaurant_post_bg.jpg);  
+    padding-top: 100px;
+    /* padding-left: 150px; */
+    padding-bottom: 50px;
+}
+.chef{
+    background: url(./Photo/restaurant_blackwood_bg.jpg);
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+/* Why Choose Us */
+
+.why_choose_inner {
+	border: 1px solid #979797;
+	border-radius: 120px 120px 0 0;
+}
+.why_choose_text p:nth-child(2){
+    color: #979797;
+    font-size: 14px;
+}
+.why_choose{
+    background: url(./Photo/restaurant_blackwood_bg.jpg);
+    padding: 60px 0;
+}
+.chuto_font{
+    font-size: 14px;
+}
+
+
+/* services */
+
+
+.services {
+	background: url(./Photo/restaurant_service_bg.jpg);
+	background-size: cover;
+	padding: 58px 0px;
+}
+.services_card{
+    background-color: rgba(245, 243, 240, 0.9);
+    transition: .5s;
+}
+.services_card i {
+	color: white;
+	background: red;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 50%;
+}
+.services_card:hover{
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+}
+.services_card span{
+    display: block;
+}
+.services_card:hover span{
+    color: red;
+    
+}
